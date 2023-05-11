@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2개 메뉴 웹페이지</title>
+    <style>
+      /* 메뉴 스타일 */
+      #menu-bar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+      }
+
+      /* 링크 스타일 */
+      #menu-bar a {
+        color: white;
+        text-decoration: none;
+      }
+
+      #menu-bar a:hover {
+        text-decoration: underline;
+      }
+
+      /* 콘텐츠 스타일 */
+      #content {
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 메뉴 -->
+    <div id="menu-bar">
+      <div>
+        <a href="#">메뉴 1</a>
+      </div>
+      <div>
+        <a href="#">메뉴 2</a>
+      </div>
+    </div>
+
+    <!-- 콘텐츠 -->
+    <div id="content">
+      <h1>메뉴 1</h1>
+      <p>첫번째 메뉴의 내용입니다.</p>
+    </div>
+    <div id="content">
+      <h1>메뉴 2</h1>
+      <p>두번째 메뉴의 내용입니다.</p>
+    </div>
+  </body>
+</html>
